@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.red{
+    background-color: rgb(182, 60, 123);
+    /* you can use rgb color means red green blue value  */
+    color: white;
+}
+
+.green{
+    background-color: rgba(0, 128, 0, 0.745);
+    /* you can also use rgba value means red green blue alfa value here alfa means opacity of color */
+    color: aqua;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* .container{
+    background-color: rgb(0, 255, 255);
+    color: white;
+    
+}  */
+
+/* note: if you want your bg image does not repeat then use bg repeat property */
+body{
+    background-image: url(images/images.jpg);
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+}
