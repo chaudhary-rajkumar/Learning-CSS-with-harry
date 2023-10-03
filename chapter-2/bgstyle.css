@@ -4,16 +4,27 @@
 
 }
 
-/* .container{
-    background-color: rgb(0, 255, 255);
+.container{
+    /* background-color: rgb(0, 255, 255);
+    color: white; */
+    width: 344px;
+    height: 1744px;
+    border: 2px solid red;
+    /* background-image: url(images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 63px 45px; */
     color: white;
-    
-}  */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* now we are going to use background shorthand way */
+    background: red url(images/images.jpg) no-repeat fixed ;
+
+} 
 
 /* note: if you want your bg image does not repeat then use bg repeat property */
 body{
-    background-image: url(images/images.jpg);
+    /* background-image: url(images/images.jpg); */
     /* background-repeat: repeat-x;
     background-repeat: repeat-y; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
