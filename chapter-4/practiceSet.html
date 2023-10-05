@@ -13,37 +13,55 @@
             margin: 0;
             padding: 0;
         }
-        .content{
+        .navbar{
             background-color: black;
             color: white;
+            padding: 20px;
+        }
+        .navbar ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        .navbar ul li{
+            display: inline-block;
+            margin: 15px 14px;
+            font-size: 20px;
+            font-weight: 20px;
+            font-style:normal;
+
+
         }
         .box1{
             display: inline-block;
             background-color: red;
             width: 50%;
-            height: 90px;
+            height: 150px;
         }
         .box2{
             display: inline-block;
             background-color: green;
             width: 50%;
-            height: 90px;
+            height: 150px;
         }
-        .how{
+        footer{
             font-family: 'Baloo Bhaijaan 2', cursive;;
             background-color: black;
             color: white;
             padding: 34px;
+            text-transform: uppercase;
             
+        }
+        .center{
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <nav class="content">
+    <nav class="navbar">
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact us</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <div class="box1">
@@ -51,8 +69,8 @@
     </div><div class="box2">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, itaque illum.
     </div>
-    <footer class="how">
-        Copyright &copy; Practice Set 4 - All rights reserved
+    <footer>
+        <p class="center">Copyright &copy; Practice Set 4 - All rights reserved</p>
     </footer>
 </body>
 </html>
