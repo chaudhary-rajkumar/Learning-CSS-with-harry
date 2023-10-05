@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts and Display</title>
+    <style>
+        .box1{
+            display: inline;
+            /* Note: After using display inline option in top and bottom width, height, margin, padding is not allowed to use or you can not use */
+           
+            width: 431px;
+            height: 1134px;
+            background-color: red;
+            margin: 34px;
+
+        }
+        .box2{
+            display: inline-block;
+            /* Note: if you use inline-block then you can give width, height, margin, padding to the element */
+            width: 251px;
+            height: 134px;
+            background-color: blue;
+        }
+        .box3{
+            display: none;
+            /* Note:if you use display none option your element will remove from website and its location is empty for another elements */
+            background-color: purple;
+        }
+        .box4{
+            background-color: magenta;
+            /* text-align: right; */
+            /* text-align: center; */
+            text-align:justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem ipsum dolor sit, 
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit, amet consectetur
+    </div>
+    <div class="box3">
+        Lorem ipsum dolor sit.
+    </div>
+    <div class="box4">
+        Lorem ipsum dolor sit.
+    </div>
+    
+</body>
+</html>
