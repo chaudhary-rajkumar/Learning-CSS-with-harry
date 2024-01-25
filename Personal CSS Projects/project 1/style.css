@@ -1,5 +1,5 @@
 *{
-    margin: 10px;
+    margin: 5px;
     padding: 0;
     box-sizing:border-box;
 }
@@ -10,7 +10,7 @@
 
 }
 .content{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto 
 }
 .top_section{
