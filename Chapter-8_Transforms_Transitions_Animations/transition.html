@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .container{
+            background-color: red;
+            height:455px;
+        }
+        .box{
+            border:12px solid black;
+            display: inline-block;
+            /* transform: translate(120px , 90px) rotate(45deg);
+            transform-origin:0; */
+        }
+        img{
+           width: 455px; 
+           transition-property: width;
+           transition-duration: 2s;
+           transition-timing-function: ease-in;
+        }
+        img:hover{
+            width: 56px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="hello.jpg" alt="Coming">
+        </div>
+    </div>
+</body>
+</html>
