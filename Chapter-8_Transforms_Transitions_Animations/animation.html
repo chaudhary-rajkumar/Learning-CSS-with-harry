@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+        }
+        .box{
+            width: 300px;
+            background-color: red;
+            color: white;
+            height: 300px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            /* Applying Animation */
+            animation-name: widhtAnimate;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            /* Applying all animation in one time */
+            /* animation: widthAnimate 3s ease-in-out 1s infinite alternate-reverse */
+        }
+        @keyframes widhtAnimate {
+            from{
+                width:300px;
+            }
+            to{
+                width: 70vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="box">
+This is me
+        </div> -->
+        <img class="box" src="hello.jpg" alt="hello" width="200px">
+    </div>
+</body>
+</html>
