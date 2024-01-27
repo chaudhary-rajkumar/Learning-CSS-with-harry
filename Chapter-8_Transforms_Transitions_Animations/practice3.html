@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set 3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: aqua;
+            width: 100vw;
+            height: 800px;
+        }
+        img{
+            justify-content: center;
+            margin: 30px 30px;
+            animation: rotate 1s ease-in-out  infinite;
+
+        }
+        @keyframes rotate {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="dragon.jpg" alt="dragon" width="200px">
+    </div>
+</body>
+</html>

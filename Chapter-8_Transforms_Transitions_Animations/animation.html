@@ -32,12 +32,25 @@
             /* Applying all animation in one time */
             /* animation: widthAnimate 3s ease-in-out 1s infinite alternate-reverse */
         }
-        @keyframes widhtAnimate {
+        /* @keyframes widhtAnimate {
             from{
                 width:300px;
             }
             to{
                 width: 70vw;
+            }
+        } */
+
+        /* this is can be also done using percent value */
+        @keyframes widhtAnimate {
+            0%{
+                width:30px;
+            }
+            20%{
+                width: 180px;
+            }
+            100%{
+               width: 70vw; 
             }
         }
     </style>

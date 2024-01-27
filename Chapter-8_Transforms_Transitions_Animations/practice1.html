@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .progress{
+            background-color: red;
+            height: 10px;
+            animation-name: proAnimate;
+            animation-duration: 3s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-delay: 0.9s;
+            animation-direction: normal;
+        }
+        header{
+            height: 122px;
+            background-color: black;
+        }
+        main{
+            height: 899px;
+            background-color: blue;
+        }
+        @keyframes proAnimate {
+            0%{
+                width: 0px;
+            }
+            45%{
+                width: 65vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress">
+
+    </div>
+    <header>
+
+    </header>
+    <main>
+
+    </main>
+</body>
+</html>
