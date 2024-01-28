@@ -1,0 +1,14 @@
+.flex_all_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my1{
+    margin: 5px auto;
+}
+.my2{
+    margin: 20px auto;
+}
+.text-center{
+    text-align: center;
+}
